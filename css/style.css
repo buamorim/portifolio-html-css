@@ -7,3 +7,59 @@
 body {
 font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 80vh;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .hero-info {
+    width: 100%;
+    text-align: center;
+}
+
+.hero .hero-info .hero-info-heading {
+    font-size: 5rem;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.hero .hero-info .hero-info-subheading {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: whitesmoke;
+}
+
+.hero .hero-info .hero-info-button {
+    margin-top: 30px;
+    padding: 2rem 5rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    letter-spacing: .6rem;
+    background-color: rgba(85,85,85, 0.534);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.hero .hero-info .hero-info-button:hover {
+    background-color: #7c003e;
+}
+/* End Hero Section */

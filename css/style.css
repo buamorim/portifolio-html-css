@@ -361,36 +361,6 @@ font-family: 'Montserrat', sans-serif;
 }
 /* End Services section  */
 
-/* Hire Section  */
-.hire {
-	min-height: 10vh;
-	flex-direction: column;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.212);
-	padding: 3rem 2rem;
-}
-.hire .hire-heading {
-	color: black;
-	font-size: 2.2rem;
-	text-align: center;
-}
-.hire .hire-button {
-	padding: 2rem 3rem;
-	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.267);
-	font-size: 1.6rem;
-	text-transform: uppercase;
-	text-decoration: none;
-	letter-spacing: .2rem;
-	margin-top: 10px;
-	color: whitesmoke;
-	transition: .3s ease background-color;
-}
-.hire .hire-button:hover {
-	background-color: black;
-}
-/* End Hire Section  */
-
 /* Footer section  */
 .footer {
 	min-height: 20vh;

@@ -341,7 +341,7 @@ font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front {
-	background-image: url(./images/img-2.jpg);
+	background-image: url(./img/cod.jpg);
 	background-size: cover;
 	position: relative;
 	color: white;
